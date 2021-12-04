@@ -42,4 +42,6 @@ class Interface(View):
         self.add_subview(self.game_view)
 
         self.add_subview(self.toolbar)
-        
+
+    def quit(self):
+        self.close()
