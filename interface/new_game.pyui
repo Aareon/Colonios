@@ -1,0 +1,152 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{0, 0}, {320, 139}}",
+            "class" : "View",
+            "attributes" : {
+              "frame" : "{{110, 110}, {100, 100}}",
+              "class" : "View",
+              "name" : "view1",
+              "uuid" : "EEF7A2EC-240F-424E-AEF6-8FF713AF0349"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{0, 147}, {320, 90}}",
+            "class" : "View",
+            "attributes" : {
+              "frame" : "{{110, 110}, {100, 100}}",
+              "class" : "View",
+              "name" : "view2",
+              "uuid" : "92F6C006-FFA7-45A9-8FDC-4E56904A3DE9"
+            },
+            "selected" : true
+          }
+        ],
+        "frame" : "{{31, 134}, {320, 347}}",
+        "class" : "ScrollView",
+        "attributes" : {
+          "border_width" : 2,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "frame" : "{{0, 80}, {320, 320}}",
+          "uuid" : "235B3FFA-6AB1-4C21-BE36-83D95BAE96A1",
+          "corner_radius" : 0,
+          "class" : "ScrollView",
+          "background_color" : "RGBA(0.513109,0.513109,0.513109,1.000000)",
+          "content_height" : 400,
+          "name" : "scrollview1",
+          "content_width" : 320
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{87, 39}, {205, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WB",
+          "font_size" : 26,
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "E4548362-C4E1-416D-9FBD-207E6169E7AE",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "New Game",
+          "number_of_lines" : 0,
+          "name" : "title",
+          "font_name" : "FiraMono-Medium"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{31, 558}, {109, 69}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "3BF253E2-4C0B-4034-8D87-BAA38BE751EE",
+          "image_name" : "iob:arrow_left_c_32",
+          "corner_radius" : 0,
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,0.250000,0.250000,1.000000)",
+          "border_width" : 3,
+          "border_color" : "RGBA(0.513109,0.513109,0.513109,1.000000)",
+          "title" : "Back",
+          "action" : "self.back_pressed",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "back",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{176, 558}, {159, 69}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "3BF253E2-4C0B-4034-8D87-BAA38BE751EE",
+          "font_size" : 18,
+          "corner_radius" : 0,
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(0.681648,0.653246,0.653246,1.000000)",
+          "border_width" : 3,
+          "border_color" : "RGBA(0.513109,0.513109,0.513109,1.000000)",
+          "title" : "Next",
+          "action" : "self.next_pressed",
+          "font_bold" : true,
+          "class" : "Button",
+          "image_name" : "iob:checkmark_32",
+          "name" : "next"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{31, 94}, {151, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WB",
+          "name" : "options",
+          "font_name" : "FiraMono-Medium",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "E4548362-C4E1-416D-9FBD-207E6169E7AE",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Options",
+          "number_of_lines" : 0,
+          "font_size" : 20,
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {375, 667}}",
+    "class" : "View",
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(0.168627,0.168627,0.168627,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
