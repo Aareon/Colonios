@@ -1,0 +1,197 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{69, 71}, {214, 46}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WRB",
+          "name" : "title",
+          "text_color" : "RGBA(0.816479,0.816479,0.816479,1.000000)",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "93677336-2E52-4242-9956-B4001567EFA9",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Colonios",
+          "font_size" : 43,
+          "font_name" : "FiraMono-Bold"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{181.5, 113}, {175.5, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WLRB",
+          "name" : "author",
+          "text_color" : "RGBA(0.589888,0.589888,0.589888,1.000000)",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "C3CA635E-0EDB-4A22-82BE-242BD09ACD2B",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "by Aareon",
+          "font_size" : 18,
+          "font_name" : "FiraMono-Medium"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{99, 195.5}, {197, 70}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "39F5B3D7-93D3-4844-8328-19F4501D128A",
+          "font_size" : 19,
+          "corner_radius" : 0,
+          "background_color" : "RGBA(0.533708,0.533708,0.533708,1.000000)",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "border_color" : "RGBA(0.571161,0.571161,0.571161,1.000000)",
+          "border_width" : 2,
+          "tint_color" : "RGBA(0.837079,0.837079,0.837079,1.000000)",
+          "title" : "New Game",
+          "action" : "self.new_game_pressed",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "new_game",
+          "flex" : "WTB"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{99, 299}, {197, 56}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "39F5B3D7-93D3-4844-8328-19F4501D128A",
+          "flex" : "WTB",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(0.533708,0.533708,0.533708,1.000000)",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "border_color" : "RGBA(0.571161,0.571161,0.571161,1.000000)",
+          "border_width" : 2,
+          "tint_color" : "RGBA(0.837079,0.837079,0.837079,1.000000)",
+          "title" : "Load Game",
+          "action" : "self.load_game",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "load_game",
+          "font_size" : 19
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{99, 387}, {197, 56}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "39F5B3D7-93D3-4844-8328-19F4501D128A",
+          "font_size" : 19,
+          "corner_radius" : 0,
+          "background_color" : "RGBA(0.533708,0.533708,0.533708,1.000000)",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "border_color" : "RGBA(0.571161,0.571161,0.571161,1.000000)",
+          "border_width" : 2,
+          "tint_color" : "RGBA(0.837079,0.837079,0.837079,1.000000)",
+          "title" : "Settings",
+          "action" : "self.view_settings",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "settings",
+          "flex" : "WTB"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{99, 559}, {197, 45}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "39F5B3D7-93D3-4844-8328-19F4501D128A",
+          "flex" : "WTB",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(0.533708,0.533708,0.533708,1.000000)",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "border_color" : "RGBA(0.571161,0.571161,0.571161,1.000000)",
+          "border_width" : 2,
+          "tint_color" : "RGBA(0.837079,0.837079,0.837079,1.000000)",
+          "title" : "Quit",
+          "action" : "self.quit",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "quit",
+          "font_size" : 19
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{191.5, 629}, {150.5, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WLT",
+          "name" : "version",
+          "text_color" : "RGBA(0.696629,0.696629,0.696629,1.000000)",
+          "frame" : "{{113, 318}, {150, 32}}",
+          "uuid" : "8DCD9669-F704-4A06-800C-1F22E84EB9B1",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "super beta 0.1",
+          "font_size" : 12,
+          "font_name" : "FiraCode-Retina"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{99, 472}, {197, 54}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "39F5B3D7-93D3-4844-8328-19F4501D128A",
+          "flex" : "WTB",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(0.533708,0.533708,0.533708,1.000000)",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "border_color" : "RGBA(0.571161,0.571161,0.571161,1.000000)",
+          "border_width" : 2,
+          "tint_color" : "RGBA(0.837079,0.837079,0.837079,1.000000)",
+          "title" : "About",
+          "action" : "self.show_about",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "about",
+          "font_size" : 19
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {375, 667}}",
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(0.168539,0.168539,0.168539,1.000000)",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "custom_class" : "TitleScreen",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
